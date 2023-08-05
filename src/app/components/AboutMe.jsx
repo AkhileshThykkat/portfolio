@@ -58,7 +58,7 @@ const AboutMe = () => {
         </div>
         <br />
 
-        <div className='w-[400px]'>
+        <div className='sm:w-[300px] lg:w-[400px]'>
           Hey there, I'm Akhilesh M T, a self-taught web developer and IoT
           enthusiast! I'm totally geeking out over technology all the time. Web
           development and IoT are my jam, and I'm super stoked about working in
