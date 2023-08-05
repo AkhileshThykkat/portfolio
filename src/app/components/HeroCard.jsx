@@ -18,7 +18,7 @@ export default function HeroCard() {
   return (
     <Card
       id='home'
-      className='rounded-[45px] max-w-[700px] w-[700px] max-h-[450px] h-[400px] bg-black text-white mx-auto mt-[45px]'
+      className='sm:max-w-[300px] sm:w-[200px] rounded-[45px] xl:max-w-[700px] xl:w-[700px] xl:max-h-[450px] xl:h-[400px] bg-black text-white mx-auto mt-[45px]  '
     >
       <div className='ml-3'>
         <CardHeader className='flex gap-3 mt-5'>

@@ -12,10 +12,13 @@ const ContactCard = () => {
 
   return (
     <>
-      <h1 className='font-michroma text-xl text-white text-center mt-[80px]'>
+      <h1
+        id='contactMe'
+        className='font-michroma text-xl text-white text-center mt-[80px]'
+      >
         Contact
       </h1>
-      <div className='bg-black shadow-md rounded-lg p-6 mx-auto w-[600px] h-[200px] my-[50px]'>
+      <div className='sm:w-[300px] bg-black shadow-md rounded-lg p-6 mx-auto lg:w-[600px] lg:h-[200px] my-[50px]'>
         <Image
           src={Me}
           alt={`Profile of ${contactData.name}`}

@@ -12,7 +12,7 @@ const AboutMe = () => {
       <h1 id='about' className='font-michroma text-xl text-center mt-7'>
         About Me
       </h1>
-      <div className='w-[800px] h-[300px] mx-auto  text-white flex flex-row justify-around items-center'>
+      <div className='sm:w-[300px] lg:w-[800px] lg:h-[300px] mx-auto  text-white flex sm:flex-row flex-col flex-wrap justify-around items-center'>
         <div className='flex flex-col items-center'>
           <h2 className='font-michroma my-4 text-base text-gray-400'>
             Technologies I use

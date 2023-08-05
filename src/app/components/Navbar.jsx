@@ -9,18 +9,18 @@ import {
 
 const NavBar = () => {
   return (
-    <Navbar className='bg-slate-950 opacity-40 font-michroma'>
+    <Navbar className=' bg-slate-950 opacity-40 font-michroma'>
       <NavbarBrand>
         <p className='font-bold  text-3xl text-white'>AK.dev</p>
       </NavbarBrand>
       <NavbarContent className='hidden sm:flex gap-4' justify='center'>
         <NavbarItem>
-          <Link color='white' href='#home'>
+          <Link color='white' href='#h'>
             Home
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color='white' href='#'>
+          <Link color='white' href='#projects'>
             Projects
           </Link>
         </NavbarItem>
@@ -30,7 +30,7 @@ const NavBar = () => {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color='white' href='#'>
+          <Link color='white' href='#contactMe'>
             Contact
           </Link>
         </NavbarItem>
