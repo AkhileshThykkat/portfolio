@@ -150,8 +150,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          {/* Add two more similar blocks for other projects */}
-          {/* ... */}
         </div>
       </div>
     </>
