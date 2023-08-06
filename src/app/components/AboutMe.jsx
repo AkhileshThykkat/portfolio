@@ -17,43 +17,53 @@ const AboutMe = () => {
           <h2 className='font-michroma my-4 text-base text-gray-400'>
             Technologies I use
           </h2>
-          <div className='flex flex-row mx-7 flex-wrap md:flex-nowrap'>
-            <Image
-              className='mx-2'
-              src={logoHtml}
-              width={40}
-              height={40}
-              alt=''
-            />
-            <Image
-              className='mx-2'
-              src={logoCss}
-              width={40}
-              height={40}
-              alt=''
-            />
-            <Image
-              className='mx-2'
-              src={logoJS}
-              width={40}
-              height={40}
-              alt=''
-            />
-            <Image
-              className='mx-2'
-              src={logoReact}
-              width={40}
-              height={40}
-              alt=''
-            />
-            <Image
-              className='mx-2'
-              src={logoPython}
-              width={40}
-              height={40}
-              alt=''
-            />
-            <Image className='mx-2' src={logoC} width={40} height={40} alt='' />
+          <div className='flex flex-col mx-7 flex-wrap md:flex-nowrap'>
+            <div className='flex flex-row my-5'>
+              <Image
+                className='mx-2'
+                src={logoHtml}
+                width={40}
+                height={40}
+                alt=''
+              />
+              <Image
+                className='mx-2'
+                src={logoCss}
+                width={40}
+                height={40}
+                alt=''
+              />
+              <Image
+                className='mx-2'
+                src={logoJS}
+                width={40}
+                height={40}
+                alt=''
+              />
+            </div>
+            <div className='flex flex-row my-5'>
+              <Image
+                className='mx-2'
+                src={logoReact}
+                width={40}
+                height={40}
+                alt=''
+              />
+              <Image
+                className='mx-2'
+                src={logoPython}
+                width={40}
+                height={40}
+                alt=''
+              />
+              <Image
+                className='mx-2'
+                src={logoC}
+                width={40}
+                height={40}
+                alt=''
+              />
+            </div>
           </div>
         </div>
         <br />
