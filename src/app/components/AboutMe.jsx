@@ -17,7 +17,7 @@ const AboutMe = () => {
           <h2 className='font-michroma my-4 text-base text-gray-400'>
             Technologies I use
           </h2>
-          <div className='flex flex-row mx-7'>
+          <div className='flex flex-row mx-7 flex-wrap md:flex-nowrap'>
             <Image
               className='mx-2'
               src={logoHtml}
@@ -58,7 +58,7 @@ const AboutMe = () => {
         </div>
         <br />
 
-        <div className='sm:w-[300px] lg:w-[400px]'>
+        <div className='sm:w-[200px] lg:w-[400px] text-start md:p-0 md:mx-0 p-6 mx-4'>
           Hey there, I'm Akhilesh M T, a self-taught web developer and IoT
           enthusiast! I'm totally geeking out over technology all the time. Web
           development and IoT are my jam, and I'm super stoked about working in
