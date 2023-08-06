@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@nextui-org/react';
 import Image from 'next/image';
 import logoHtml from '../assets/html.svg';
 import logoCss from '../assets/css.svg';
@@ -6,13 +7,16 @@ import logoJS from '../assets/javascript.svg';
 import logoReact from '../assets/react.svg';
 import logoPython from '../assets/python.svg';
 import logoC from '../assets/C.svg';
+import Link from 'next/link';
 const AboutMe = () => {
+  const pdfLink =
+    'https://drive.google.com/file/d/1mQGMUfZ8sNAPgRj-b0YFXvxN9LlgjPoi/view?usp=sharing';
   return (
     <>
       <h1 id='about' className='font-michroma text-xl text-center mt-7'>
         About Me
       </h1>
-      <div className='sm:w-[500px]  lg:w-[800px] lg:h-[300px] mx-0 md:mx-auto text-white flex sm:flex-row flex-col flex-wrap justify-evenly items-center'>
+      <div className='sm:w-[500px] mt-4  lg:w-[800px] lg:h-[300px] mx-0 md:mx-auto text-white flex sm:flex-row flex-col flex-wrap justify-evenly items-center'>
         <div className='flex flex-col items-center ml-[10px]  md:ml-[40px] '>
           <h2 className='font-michroma my-4 text-base text-gray-400'>
             Technologies I use
@@ -77,6 +81,15 @@ const AboutMe = () => {
           what I do, and my big dream is to rock it and be successful by doing
           what I absolutely love! 🚀
         </div>
+        <Link className='mt-5' href={pdfLink} target='_blank'>
+          <Button
+            className='font-michroma text-sm'
+            color='primary'
+            variant='bordered'
+          >
+            resume
+          </Button>
+        </Link>
       </div>
     </>
   );
