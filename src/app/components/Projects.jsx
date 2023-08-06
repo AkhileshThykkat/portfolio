@@ -30,11 +30,11 @@ const Projects = () => {
         >
           Projects
         </h1>
-        <div className='mx-auto grid grid-cols-1 sm:w-[50%]  gap-8   my-10 px-4'>
+        <div className='ml-[15px] md:mx-auto grid grid-cols-1 sm:w-[50%]  gap-8   my-10 px-4'>
           <div className='w-full flex flex-col md:flex-row items-start '>
             <Image
               isZoomed
-              width={240}
+              width={220}
               alt='NextUI Fruit Image with Zoom'
               src={Finedge}
               height={150}
@@ -74,10 +74,10 @@ const Projects = () => {
           <div className='w-full mx-auto flex flex-col md:flex-row items-start'>
             <Image
               isZoomed
-              width={240}
+              width={230}
               alt='NextUI Fruit Image with Zoom'
               src={MovieBox}
-              height={140}
+              height={150}
               className='rounded-[20px] mx-8 hover:scale-110 hover:bg-none hover:cursor-pointer bg-slate-800 transition-all ease-in'
             />
             <div className='font-inter text-lg mx-12 text-white mt-4'>
@@ -113,7 +113,7 @@ const Projects = () => {
           <div className='w-full mx-auto flex flex-col md:flex-row items-start'>
             <Image
               isZoomed
-              width={240}
+              width={230}
               alt='NextUI Fruit Image with Zoom'
               src={Todo}
               height={150}
