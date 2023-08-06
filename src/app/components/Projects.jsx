@@ -30,15 +30,15 @@ const Projects = () => {
         >
           Projects
         </h1>
-        <div className='ml-[15px] md:mx-auto grid grid-cols-1 sm:w-[50%]  gap-8   my-10 px-4'>
-          <div className='w-full flex flex-col md:flex-row items-start '>
+        <div className='ml-[19px] md:mx-auto grid grid-cols-1 sm:w-[50%]  gap-8   my-10 px-4'>
+          <div className='w-full flex flex-col mb-3 md:flex-row items-start '>
             <Image
               isZoomed
               width={220}
               alt='NextUI Fruit Image with Zoom'
               src={Finedge}
               height={150}
-              className='rounded-[20px] hover:scale-110 hover:bg-none hover:cursor-pointer mx-8 bg-slate-800 transition-all ease-in'
+              className='rounded-[20px] hover:scale-110 mb-5 hover:bg-none hover:cursor-pointer mx-8 bg-slate-800 transition-all ease-in'
             />
             <div className='font-inter text-lg text-white mx-12 mt-4'>
               <p>A portfolio page for FinEdge</p>
@@ -78,7 +78,7 @@ const Projects = () => {
               alt='NextUI Fruit Image with Zoom'
               src={MovieBox}
               height={150}
-              className='rounded-[20px] mx-8 hover:scale-110 hover:bg-none hover:cursor-pointer bg-slate-800 transition-all ease-in'
+              className='rounded-[20px] mb-5 mx-8 hover:scale-110 hover:bg-none hover:cursor-pointer bg-slate-800 transition-all ease-in'
             />
             <div className='font-inter text-lg mx-12 text-white mt-4'>
               <p>A movie searching app using react and material ui</p>
@@ -117,7 +117,7 @@ const Projects = () => {
               alt='NextUI Fruit Image with Zoom'
               src={Todo}
               height={150}
-              className='rounded-[20px] mx-8 hover:scale-110 hover:bg-none hover:cursor-pointer bg-slate-800 transition-all ease-in'
+              className='rounded-[20px] mb-5 mx-8 hover:scale-110 hover:bg-none hover:cursor-pointer bg-slate-800 transition-all ease-in'
             />
             <div className='font-inter text-lg mx-12 text-white mt-4'>
               <p>Todo app using react</p>
