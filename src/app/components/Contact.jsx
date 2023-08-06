@@ -18,7 +18,7 @@ const ContactCard = () => {
       >
         Contact
       </h1>
-      <div className='sm:w-[300px] bg-black shadow-md rounded-lg p-6 mx-auto lg:w-[600px] lg:h-[200px] my-[50px]'>
+      <div className='sm:w-[300px] sm:h-[300px] bg-black shadow-md rounded-lg p-6 mx-auto lg:w-[600px] lg:h-[200px] my-[50px]'>
         <Image
           src={Me}
           alt={`Profile of ${contactData.name}`}
