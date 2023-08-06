@@ -13,7 +13,7 @@ const NavBar = () => {
       <NavbarBrand>
         <p className='font-bold  text-3xl text-white'>AK.dev</p>
       </NavbarBrand>
-      <NavbarContent className='hidden sm:flex gap-4' justify='center'>
+      <NavbarContent className='hidden sm:flex gap-2' justify='center'>
         <NavbarItem>
           <Link color='white' href='#h'>
             Home

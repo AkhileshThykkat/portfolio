@@ -12,13 +12,13 @@ const AboutMe = () => {
       <h1 id='about' className='font-michroma text-xl text-center mt-7'>
         About Me
       </h1>
-      <div className='sm:w-[500px]  lg:w-[800px] lg:h-[300px] mx-auto text-white flex sm:flex-row flex-col flex-wrap justify-evenly items-center'>
-        <div className='flex flex-col items-center ml-[40px] '>
+      <div className='sm:w-[500px]  lg:w-[800px] lg:h-[300px] mx-0 md:mx-auto text-white flex sm:flex-row flex-col flex-wrap justify-evenly items-center'>
+        <div className='flex flex-col items-center ml-[10px]  md:ml-[40px] '>
           <h2 className='font-michroma my-4 text-base text-gray-400'>
             Technologies I use
           </h2>
-          <div className='flex flex-col mx-7 flex-wrap md:flex-nowrap'>
-            <div className='flex flex-row my-5'>
+          <div className='flex flex-col mx-7 '>
+            <div className='flex flex-row  mb-2 md:my-5'>
               <Image
                 className='mx-2'
                 src={logoHtml}
@@ -41,7 +41,7 @@ const AboutMe = () => {
                 alt=''
               />
             </div>
-            <div className='flex flex-row my-5'>
+            <div className='flex flex-row mb-2 md:my-5'>
               <Image
                 className='mx-2'
                 src={logoReact}
@@ -68,7 +68,7 @@ const AboutMe = () => {
         </div>
         <br />
 
-        <div className='sm:w-[200px] lg:w-[400px] text-start md:p-0 md:mx-0 p-6 ml-[60px]'>
+        <div className='sm:w-[200px] lg:w-[400px] text-start md:p-0 ml-[20px] p-6 md:ml-[60px]'>
           Hey there, I'm Akhilesh M T, a self-taught web developer and IoT
           enthusiast! I'm totally geeking out over technology all the time. Web
           development and IoT are my jam, and I'm super stoked about working in
