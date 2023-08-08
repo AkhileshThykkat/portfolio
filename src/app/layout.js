@@ -20,6 +20,8 @@ export const metaData = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en' className={`${inter.variable} ${michroma.variable}`}>
+      <title>Akhilesh Portfolio</title>
+      <link rel='icon' href='./favicon.ico' type='image/x-icon' />
       <body>
         <Providers> {children}</Providers>
       </body>
