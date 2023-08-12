@@ -9,7 +9,7 @@ export const metaData = {
   description:
     'Welcome to my portfolio website showcasing my work and projects.',
   author: 'Akhilesh Thykkat',
-  image: '../src/app/assets/me.jpg', // Path to a default thumbnail image
+  icon: './favicon.ico', // Path to a default thumbnail image
   url: 'https://thykkat-portfolio.vercel.app/',
   social: {
     linkedin: 'https://www.linkedin.com/in/akhilesh-m-t-a68b09220/',
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en' className={`${inter.variable} ${michroma.variable}`}>
       <title>Akhilesh Portfolio</title>
-      <link rel='icon' href='./favicon.ico' type='image/x-icon' />
+    
       <body>
         <Providers> {children}</Providers>
       </body>
